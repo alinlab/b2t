@@ -1,0 +1,7 @@
+data/celebA/
+data/cub/
+model/*
+result/
+diff/
+function/clipcap.pt
+__pycache__
