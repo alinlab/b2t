@@ -1,6 +1,6 @@
 # Bias-to-Text (B2T): Explaining Visual Biases as Words
 
-Implementation of the bias-to-text (B2T) algorithm described in "**Explaining Visual Biases as Words by Generating Captions**".
+Implementation of the bias-to-text (B2T) algorithm described in ["**Explaining Visual Biases as Words by Generating Captions**."](https://arxiv.org/abs/2301.11104)
 B2T discovers the visual biases in image classifiers by text descriptions.
 
 
