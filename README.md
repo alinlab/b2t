@@ -1,16 +1,15 @@
-# Bias-to-Text (B2T): Explaining Visual Biases as Words
+# Bias-to-Text (B2T): Visual Biases as Keywords
 
-Implementation of the bias-to-text (B2T) algorithm described in ["**Explaining Visual Biases as Words by Generating Captions**."](https://arxiv.org/abs/2301.11104)
-B2T discovers the visual biases in image classifiers by text descriptions.
+Implementation of the bias-to-text (B2T) algorithm described in ["**Bias-to-Text: Debiasing Unknown Visual Biases through Language Interpretation**."](https://arxiv.org/abs/2301.11104)
+B2T identifies and mitigates visual biases in image classifiers and text-to-image generative models using language descriptions.
 
 
 ## Example Results
-
-![plot](./assets/b2t_results.png)
+![plot](./assets/figure_1.png)
+See the [**link**](./docs/more_results.md) for more detailed results in bias discovery and debiasing.
 
 ## Method Overview
-
-![plot](./assets/b2t_method.png)
+![plot](./assets/figure_2.png)
 
 
 ## Installation
@@ -69,4 +68,8 @@ $ python b2t.py --dataset waterbird --model best_model_Waterbirds_erm.pth
 ```
 
 ## Debiasing classifiers with B2T
-To reproduce the inferring group label (Table 3) and training debiasing classifier (Table 4), see [b2t_debias](b2t_debias).  
+To reproduce the debiasing classifier experiments, see [b2t_debias](b2t_debias).  
+
+
+## Diffusion models with B2T
+To reproduce the diffusion model experiments, see [b2t_diffusion](b2t_diffusion).  
