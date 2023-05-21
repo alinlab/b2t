@@ -6,7 +6,7 @@ B2T identifies and mitigates visual biases in image classifiers and text-to-imag
 
 ## Example Results
 ![plot](./assets/figure_1.png)
-See the [**link**](./docs/more_results.md) for more detailed results in bias discovery and debiasing.
+See the [**link**](./docs/more_results.MD) for more detailed results in bias discovery and debiasing.
 
 ## Method Overview
 ![plot](./assets/figure_2.png)
